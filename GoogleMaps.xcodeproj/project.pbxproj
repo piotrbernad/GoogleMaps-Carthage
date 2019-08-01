@@ -54,7 +54,7 @@
 		15B54FE021417D3D00A99A88 /* GMSCoordinateBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FD921417D3D00A99A88 /* GMSCoordinateBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15B54FE221417D5E00A99A88 /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B54FE121417D5E00A99A88 /* GoogleMapsBase */; };
 		15B54FEA214184F100A99A88 /* GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FE8214184F000A99A88 /* GoogleMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		24475A0022F30201006CFB48 /* GMSStrokeStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 244759FF22F30201006CFB48 /* GMSStrokeStyle.h */; };
+		24475A0022F30201006CFB48 /* GMSStrokeStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 244759FF22F30201006CFB48 /* GMSStrokeStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D552E4422378AC500E9367F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03B91D9D85E5003E7610 /* CoreText.framework */; };
 		6D552E4622378AC500E9367F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D552E4522378AC500E9367F /* CoreFoundation.framework */; };
 		6D552E4722378B4000E9367F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03B91D9D85E5003E7610 /* CoreText.framework */; };
