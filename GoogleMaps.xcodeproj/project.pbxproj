@@ -54,6 +54,7 @@
 		15B54FE021417D3D00A99A88 /* GMSCoordinateBounds.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FD921417D3D00A99A88 /* GMSCoordinateBounds.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		15B54FE221417D5E00A99A88 /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B54FE121417D5E00A99A88 /* GoogleMapsBase */; };
 		15B54FEA214184F100A99A88 /* GoogleMaps.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B54FE8214184F000A99A88 /* GoogleMaps.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24475A0022F30201006CFB48 /* GMSStrokeStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 244759FF22F30201006CFB48 /* GMSStrokeStyle.h */; };
 		6D552E4422378AC500E9367F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03B91D9D85E5003E7610 /* CoreText.framework */; };
 		6D552E4622378AC500E9367F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D552E4522378AC500E9367F /* CoreFoundation.framework */; };
 		6D552E4722378B4000E9367F /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE03B91D9D85E5003E7610 /* CoreText.framework */; };
@@ -197,6 +198,7 @@
 		15B54FE4214183F200A99A88 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		15B54FE6214184F000A99A88 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		15B54FE8214184F000A99A88 /* GoogleMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleMaps.h; sourceTree = "<group>"; };
+		244759FF22F30201006CFB48 /* GMSStrokeStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSStrokeStyle.h; sourceTree = "<group>"; };
 		6D552E4522378AC500E9367F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		6D552E4D22378D2500E9367F /* GooglePlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GooglePlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D552E5022378D2500E9367F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -375,6 +377,7 @@
 				15B54F8621417C7000A99A88 /* GMSOverlayLayer.h */,
 				15B54F8721417C7000A99A88 /* GMSCameraUpdate.h */,
 				15B54F8821417C7000A99A88 /* GMSMapLayer.h */,
+				244759FF22F30201006CFB48 /* GMSStrokeStyle.h */,
 				15B54F8921417C7000A99A88 /* GMSPolyline.h */,
 				15B54F8A21417C7000A99A88 /* GMSMapView+Animation.h */,
 				15B54F8B21417C7000A99A88 /* GMSOrientation.h */,
@@ -685,6 +688,7 @@
 				15B54FA921417C7000A99A88 /* GMSMarker.h in Headers */,
 				15B54FC621417C7000A99A88 /* GMSURLTileLayer.h in Headers */,
 				15B54FBD21417C7000A99A88 /* GMSPanoramaCameraUpdate.h in Headers */,
+				24475A0022F30201006CFB48 /* GMSStrokeStyle.h in Headers */,
 				15B54FB821417C7000A99A88 /* GMSIndoorLevel.h in Headers */,
 				15B54FBB21417C7000A99A88 /* GMSPanoramaSource.h in Headers */,
 				15B54FC321417C7000A99A88 /* GMSSyncTileLayer.h in Headers */,
@@ -854,6 +858,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = B9EE03631D9D8429003E7610;
